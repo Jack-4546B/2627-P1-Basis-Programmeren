@@ -2,7 +2,6 @@ function setup() {
   createCanvas(800, 600);
 }
 
-let kleuren = []
 
 function draw() {
   background(220);
@@ -16,12 +15,11 @@ function draw() {
  text("5", 540, 20);
  text("6", 350, 105);
  text("7", 625, 105);
+ 
+ for (let i = 0; i < 10; i++) {
+rect (50, (50 * i), 50, 50);
+
 }
 
-for (let i = 0; i < 10; i++) {
-kleuren.push("white")
-
 }
-
-kleuren[6] ("blue")
 
