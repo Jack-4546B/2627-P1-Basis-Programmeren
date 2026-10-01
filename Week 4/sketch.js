@@ -39,30 +39,30 @@ strokeWeight(random(0, 1));
 
   for (let i = 0; i < 100; i++) {
   fill (255, 0, 0);
-  square(random(width), random(height), random(5, 35));
-  circle(random(width), random(height), random(5, 35));
+  square(random(width), random(height), random(10, 35));
+  circle(random(width), random(height), random(5, 15));
   triangle(random(width), random(height), random(5, 35));
   }
 
     for (let i = 0; i < 100; i++) {
   fill (0, 255, 0);
-  square(random(width), random(height), random(5, 35));
-  circle(random(width), random(height), random(5, 35));
+  square(random(width), random(height), random(10, 35));
+  circle(random(width), random(height), random(5, 15));
   triangle(random(width), random(height), random(5, 35));
 
   }
 
     for (let i = 0; i < 100; i++) {
   fill (0, 0, 255);
-  square(random(width), random(height), random(5, 35));
-  circle(random(width), random(height), random(5, 35));
+  square(random(width), random(height), random(10, 35));
+  circle(random(width), random(height), random(5, 15));
   triangle(random(width), random(height), random(5, 35));
   }
 
   for (let i = 0; i < 100; i++) {
   fill ("yellow");
-  square(random(width), random(height), random(5, 15));
-  circle(random(width), random(height), random(5, 35));
+  square(random(width), random(height), random(10, 15));
+  circle(random(width), random(height), random(5, 15));
   triangle(random(width), random(height), random(5, 35));
 
   }
