@@ -12,27 +12,58 @@ for (let i = 0; i < 150; i++)
 function draw() {
   background(0);
 
+stroke("red");
+  for (let i = 0; i < 250; i++) {
+  fill (0, 0, 0);
+  square(random(width), random(height), random(5, 35));
+  }
+stroke("Blue");
+    for (let i = 0; i < 250; i++) {
+  fill (0, 0, 0);
+  square(random(width), random(height), random(5, 35));
+
+  }
+stroke("Green");
+    for (let i = 0; i < 250; i++) {
+  fill (0, 0, 0);
+  square(random(width), random(height), random(5, 35));
+  }
+stroke("yellow");
+  for (let i = 0; i < 250; i++) {
+  fill ("black");
+  square(random(width), random(height), random(5, 15));
+
+  }
+  stroke("Black");
 strokeWeight(random(0, 1));
 
-  for (let i = 0; i < 250; i++) {
+  for (let i = 0; i < 100; i++) {
   fill (255, 0, 0);
   square(random(width), random(height), random(5, 35));
+  circle(random(width), random(height), random(5, 35));
+  triangle(random(width), random(height), random(5, 35));
   }
 
-    for (let i = 0; i < 250; i++) {
+    for (let i = 0; i < 100; i++) {
   fill (0, 255, 0);
   square(random(width), random(height), random(5, 35));
+  circle(random(width), random(height), random(5, 35));
+  triangle(random(width), random(height), random(5, 35));
 
   }
 
-    for (let i = 0; i < 250; i++) {
+    for (let i = 0; i < 100; i++) {
   fill (0, 0, 255);
   square(random(width), random(height), random(5, 35));
+  circle(random(width), random(height), random(5, 35));
+  triangle(random(width), random(height), random(5, 35));
   }
 
-  for (let i = 0; i < 250; i++) {
+  for (let i = 0; i < 100; i++) {
   fill ("yellow");
   square(random(width), random(height), random(5, 15));
+  circle(random(width), random(height), random(5, 35));
+  triangle(random(width), random(height), random(5, 35));
 
   }
 
