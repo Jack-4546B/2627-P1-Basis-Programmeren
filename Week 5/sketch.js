@@ -28,7 +28,8 @@ drawingContext.shadowBlur = 15;
 drawingContext.shadowOffsetX = 10;
 drawingContext.shadowOffsetY = 10;
 
-question1 = "What is the leviathan at the back of the Aurora?"
+
+
 
 
 }
