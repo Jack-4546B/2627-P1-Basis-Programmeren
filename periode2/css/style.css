@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+        margin: 0;
+        text-align: center;
+}
+
+#header {
+    background-color: #000000;
+    color: #000000;
+    height: 100px;
+    text-align: center;   /* tekst in het midden */
+    font-size: 32px;
+    line-height: 100px;   /* tekst verticaal in het midden: zelfde als de hoogte */
+}
